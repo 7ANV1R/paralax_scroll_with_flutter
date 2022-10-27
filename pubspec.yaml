@@ -25,3 +25,5 @@ flutter:
 
   assets:
     - assets/
+    - assets/first/
+    - assets/second/

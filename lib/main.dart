@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:paralax_scroll/homepage.dart';
+import 'package:paralax_scroll/pages/second/second_homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
               displayColor: Colors.white,
             ),
       ),
-      home: const HomePage(),
+      home: const SecondHomePage(),
     );
   }
 }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:paralax_scroll/widgets/parallax_asset.dart';
+import 'package:paralax_scroll/pages/widgets/parallax_asset.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -51,47 +51,47 @@ class _HomePageState extends State<HomePage> {
             //parallax asset
             ParallaxAsset(
               top: top11,
-              assetPath: 'assets/top-paralax-11.png',
+              assetPath: 'assets/first/top-paralax-11.png',
             ),
             ParallaxAsset(
               top: top10,
-              assetPath: 'assets/top-paralax-10.png',
+              assetPath: 'assets/first/top-paralax-10.png',
             ),
             ParallaxAsset(
               top: top9,
-              assetPath: 'assets/top-paralax-9.png',
+              assetPath: 'assets/first/top-paralax-9.png',
             ),
             ParallaxAsset(
               top: top8,
-              assetPath: 'assets/top-paralax-8.png',
+              assetPath: 'assets/first/top-paralax-8.png',
             ),
             ParallaxAsset(
               top: top7,
-              assetPath: 'assets/top-paralax-7.png',
+              assetPath: 'assets/first/top-paralax-7.png',
             ),
             ParallaxAsset(
               top: top6,
-              assetPath: 'assets/top-paralax-6.png',
+              assetPath: 'assets/first/top-paralax-6.png',
             ),
             ParallaxAsset(
               top: top5,
-              assetPath: 'assets/top-paralax-5.png',
+              assetPath: 'assets/first/top-paralax-5.png',
             ),
             ParallaxAsset(
               top: top4,
-              assetPath: 'assets/top-paralax-4.png',
+              assetPath: 'assets/first/top-paralax-4.png',
             ),
             ParallaxAsset(
               top: top3,
-              assetPath: 'assets/top-paralax-3.png',
+              assetPath: 'assets/first/top-paralax-3.png',
             ),
             ParallaxAsset(
               top: top2,
-              assetPath: 'assets/top-paralax-2.png',
+              assetPath: 'assets/first/top-paralax-2.png',
             ),
             ParallaxAsset(
               top: top1,
-              assetPath: 'assets/top-paralax-1.png',
+              assetPath: 'assets/first/top-paralax-1.png',
             ),
 
             SingleChildScrollView(
